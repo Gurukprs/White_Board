@@ -5,7 +5,7 @@ import CreateRoom from "./components/CreateRoom";
 import { Route, Routes } from "react-router-dom";
 import JoinRoom from "./components/JoinRoom";
 import io from "socket.io-client";
-const servers = "http://192.168.85.204:5000";
+const servers = "https://white-board-vxdz.onrender.com";
 
 function App() {
   const socket = useMemo(() => io(servers), []);

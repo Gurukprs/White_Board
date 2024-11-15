@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import io from "socket.io-client";
-const server = "http://localhost:5000";
+const server = "https://white-board-vxdz.onrender.com";
 
 var randomToken = require("random-token");
 

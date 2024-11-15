@@ -114,9 +114,9 @@ const JoinRoom = ({socket,user,roomId}) => {
           >
             Undo
           </button>
-          <button onClick={Redo} className="w-[60px] text-blue-500 rounded-lg h-[40px] border-blue-500 border-2 ">
+          {/* <button onClick={Redo} className="w-[60px] text-blue-500 rounded-lg h-[40px] border-blue-500 border-2 ">
             Redo
-          </button>
+          </button> */}
         </div>
         <div>
           <button
